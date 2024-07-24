@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration From </title>
+</head>
+
+<!-- <link href="../Registration From/index.css" rel="stylesheet" /> -->
+
+
+
+<body>  
+<style>
+
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: whitesmoke;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: rgba(26, 212, 20, 0.849);  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f01010;  
+  margin-bottom: 20px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.5;  
+}  
+.registerbtn:hover {  
+  opacity: 3;  
+}  
+
+
+
+
+
+</style>
+
+<form> 
+     
+  <div class="container">  
+    
+    <img src="../Registration From/sign-up-gif-4.gif" height="50px" width="150px" />
+  <center>  <h1> Crafts Instructor Training Scheme (CITS) Registeration Form</h1> </center>  
+  <hr>  
+  <label> First Name </label>   
+<input type="text" name="firstname" placeholder= "Rohit" size="15" required />   
+<label> Middle Name: </label>   
+<input type="text" name="middlename" placeholder="middlename" size="15"  />   
+<label> Last Name: </label>    
+<input type="text" name="lastname" placeholder="Kumar" size="15"required /> 
+
+
+<div>  
+<label>Gender : </label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="TransGender" name="gender"> Trans-Gender
+</div>  
+<div>
+    <label>Date Of Birth </label>
+    <input type="date" id="birthday" name="birthday">
+</div>
+
+<div>  
+    <label> Course :  </label>     
+    <select>  
+    <option value="Select.....">Select.......</option>
+    <option value="Cosmetology">Beauty and Wellness(Non Engineering)</option>  
+    <option value="Agro Processing">Food Industry(Non Engineering)</option>  
+    <option value="Construction">Architectural Draughtsman(Non Engineering)</option>  
+    <option value="Handicrafts & Carpets">Bamboo Works(Non Engineering)</option>  
+    <option value="Construction">Carpenter(Non Engineering)</option>  
+    <option value="Tourism & Hospitality">Catering & Hospitality(Non Engineering)</option> 
+    <option value="IT and ITES">Computer Hardware & Networking Maintenance(Non Engineering)</option> 
+    <option value="IT and ITES">Computer Software Applications(Non Engineering)</option> 
+    <option value="Construction">Draughtsman (Civil)(Non Engineering)</option> 
+    <option value="Capital Goods And Manufacturing">Draughtsman (Mech)(Non Engineering)</option> 
+    <option value="Power">Electrician(Engineering)</option>  
+    <option value="Apparel">Dress Making(Non Engineering)</option> 
+    <option value="Capital Goods & Manufacturing">Fitter(Non Engineering)</option> 
+    <option value="Food Industry">Food Beverage(Non Engineering)</option> 
+    <option value="Food Industry">Fruit & Vegetables Processing(Non Engineering)</option> 
+    <option value="Automotive">Mechanic Diesel(Non Engineering)</option> 
+    </select>  
+    </div> 
+
+<label> Phone :  </label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> <button>Send OTP</button>  
+<input type="num" name="otp" placeholder="Fill OTP" size="6" required /> <button>Confirm OTP</button>
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>  
+
+
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" placeholder="Current Address" value="address" required> </textarea>  
+Communication Address:  
+<textarea cols="80" rows="5" placeholder="Current Address" placeholder="communication address" required> </textarea>  
+<label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+ 
+<label for="psw"><b>Password</b></label>  
+<input type="password" placeholder="Enter Password" name="psw" required>  
+  
+<label for="psw-repeat"><b>Re-type Password</b></label>  
+<input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+<button type="submit" class="registerbtn" onclick="alert('Registered Sucessfully')" >Register</button>   
+    
+    
+</form>  
+
+
+</body>  
+</html>  
